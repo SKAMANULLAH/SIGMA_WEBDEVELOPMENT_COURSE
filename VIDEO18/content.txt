@@ -1,0 +1,11 @@
+
+That means the height = my border and padding + content
+box-sizing: border-box;
+
+Otherwise it is height = just height only
+
+Concept Of Margin Collapse
+
+If we have two elements
+
+ In the image you can see that the collapsing margin of both will be the greatest margin amongst the two

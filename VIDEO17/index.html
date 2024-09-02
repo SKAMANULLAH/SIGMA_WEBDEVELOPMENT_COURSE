@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="red">I am a div
+
+    </div>
+    <div>Assalamualaikum</div>
+    <div id="yellow">Assalamualaikum Warahmatulloh</div>
+    <!-- Class Selector  -->
+    <style>
+        .red {
+            background-color: red;
+        }
+    </style>
+
+    <!-- Id Selectors -->
+    <style>
+        #yellow {
+            background-color: yellow;
+        }
+    </style>
+
+    <!-- Child Selector  -->
+    <div>
+        <p>I am A para inside div</p>
+        <style>
+            div>p {
+                background-color: green;
+            }
+        </style>
+    </div>
+
+
+    <!-- Decended Selector -->
+
+
+    <style>
+        div p {
+            background-color: blue;
+        }
+    </style>
+    <div>
+        <article>
+            <p>I am para inside article which is inside div</p>
+        </article>
+    </div>
+
+
+    <!-- Universal Selector  -->
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+
+
+    <!-- Pseudo Selector  -->
+
+    <a href="https://www.google.com" target="_blank"> Google</a>
+    <div><p>Alhamdulillah I amthe first the first child of my parents</p></div>
+    <style>
+        /* color after visiting the link  */
+        a:visited {
+            color: yellow;
+        }
+
+        /* link which is not visited yet  */
+        a:link {
+            color: green;
+        }
+
+        /* At the time of clicking the link bolor of link  */
+        a:active {
+            background-color: red;
+        }
+
+        /* colour  When i am taking the curser to that link  */
+        a:hover {
+            background-color: pink;
+        }
+        /* where p is the first child of his parents  */
+        p:first-child{
+background-color: aqua;
+        }
+    </style>
+
+</body>
+
+</html>
