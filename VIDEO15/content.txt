@@ -1,0 +1,12 @@
+1.Inline CSS
+ <h1 style="color: chartreuse;">About Me</h1>
+
+2.Internal CSS
+<style>div{
+    background-color: rgb(18, 95, 162);}</style>
+
+3.External CSS
+p{
+    background-color: bisque;
+}
+
