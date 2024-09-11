@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav_logo {
+    margin-top: 22px;
+    margin-left: 148px;
+    height: 60px;
+    width: 189px;
+}
+
+.nav_bar {
+    display: flex;
+}
+
+.nav_ul {
+    display: flex;
+    list-style: none;
+    margin-left: 277px;
+    margin-top: 41px;
+    gap: 54px;
+
+}
+
+.nav_li {
+    font-size: 1.2em;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+.A_HINDI {
+    background-color: rgb(255, 255, 255);
+    margin-left: 26px;
+    margin-top: 41px;
+    width: 25px;
+    height: 25px;
+}
+
+.div_upper {
+    margin-top: 99px;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.upper_heading1 {
+    font-weight: 200;
+    font-size: 56px;
+}
+
+.Reviews {
+    margin-top: 18px;
+    height: 33px;
+}
+
+.upper_heading2 {
+    font-weight: 150;
+    font-size: 26px;
+    margin-top: 56px;
+}
+
+.upper2 {
+    text-align: center;
+    margin-left: 327px;
+    width: 60vw;
+}
+
+.upper_button {
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 1000;
+    color: white;
+    width: 346px;
+    height: 46px;
+    margin-left: 41vw;
+    margin-top: 54px;
+    background-color: rgb(79, 205, 255);
+}
+
+.grid {
+    margin-top: 80px;
+    gap: 21px;
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
+    grid-template-rows: repeat(4, 33vh);
+    /* grid-template-columns: repeat(5 , 1fr); */
+    /* grid-template-rows:repeat(4 , 33vh); */
+    grid-template-areas: "area1 area2 area3 area4 area5"
+        "area6 area7 area8 area9 area10"
+        "area11 area12 area13 area14 area15"
+        "area16 area17 area18 area19 area20";
+}
+.area1{
+    grid-area: area1;
+}
+.area2{
+    grid-area: area2;
+}
+.area3{
+    grid-area: area3;
+}
+.area4{
+    grid-area: area4;
+}
+.area5{
+    grid-area: area5;
+}
+.area6{
+    grid-area: area6;
+}
+.area7{
+    grid-area: area7;
+}
+.area8{
+    grid-area: area8;
+}
+.area9{
+    grid-area: area9;
+}
+.area10{
+    grid-area: area10;
+}
+.area11{
+    grid-area: area11;
+}
+.area12{
+    grid-area: area12;
+}
+.area13{
+    grid-area: area13;
+}
+.area14{
+    grid-area: area14;
+}
+.area15{
+    grid-area: area15;
+}
+.area16{
+    grid-area: area16;
+}
+.area17{
+    grid-area: area17;
+}
+.area18{
+    grid-area: area18;
+}
+.area19{
+    grid-area: area19;
+}
+.area20{
+    grid-area: area20;
+}
